@@ -18,33 +18,45 @@ Este repositorio está organizado en cuatro carpetas principales, cada una dedic
 
 ## Colaboración y Contribuciones
 
-Para contribuir a este repositorio, sigue los pasos a continuación:
+Para contribuir a este repositorio, sigue los pasos a continuación para la creación de una Rama "Fork":
 
-1. **Clonar el repositorio**: 
-   ```bash
-   git clone https://github.com/tu-usuario/maraton-programacion.git
+1. **Fork Para Copiar el Repositorio en Tu Cuenta, Teniendo Así Acceso**: 
+
+   ![alt text][fork]
+   
+   [fork]: https://static.codex.so/upload/redactor_images/o_602d344e24f1f5ac13cb05022089101e.jpg "Fork"
+
+2. **Directamente Abrira el Repositiorio Perteneciendote a Ti Genera el Codigo Clonando en Tu Computadora**: 
+
+   ![alt text][clone]
+   
+   [clone]: https://docs.github.com/assets/cb-60499/mw-1440/images/help/repository/https-url-clone-cli.webp "Clone"
+
+4. **Prepara el Área de Trabajo para que Aceptemos tu Contenido**:
+    ```bash
+   $ git clone "LinkRepositorioFork"
+   $ git remote add upstream "LinkRepositorioOriginal"
+   $ git remote -v
+   $ git pull -r upstream master
+   $ git checkout -b feature-nombre-rama
    ```
-
-2. **Crear una nueva rama para tu contribución o trabajar directamente en el main**: 
-   ```bash
-   git checkout -b mi-nueva-contribucion
-   ```
-
-3. **Añadir tu solución o mejora**. Coloca tu código en la carpeta correspondiente y usa una nomenclatura clara para nombrar el archivo, indicando el nombre del problema y la plataforma.
-
-4. **Hacer commit de tus cambios**: 
+5. **Hacer commit de tus cambios**: 
    ```bash
    git add .
-   git commit -m "feat: Añadida solución para [nombre del problema] en [plataforma]"
+   git commit -m "Feat: Añadida solución para [nombre del problema] en [plataforma]"
    ```
 
-5. **Enviar tu contribución**: 
+6. **Enviar tu contribución**: 
    ```bash
-   git push origin mi-nueva-contribucion
+   git push origin "Nombre-Rama"
    ```
 
-6. **Crear un Pull Request**. Una vez que hayas empujado tu rama, ve al repositorio en GitHub y crea un Pull Request para que otros miembros puedan revisar tu solución.
-
+7. **Crear un Pull Request**:
+   - Hacer click en "Compare & Pull Request"
+   - Escribir cambios del Pull Request.
+   - Si todo está bien, enviar con el botón "Send Pull Request".
+   - Esperar a que el duelo del repositorio lo revise, acepte y mezcle en la rama correspondiente.
+   
 ## Reglas y Buenas Prácticas
 
 - **Escribe código limpio y comentado**: Asegúrate de que tu código sea legible y comprensible para otros miembros. Si utilizas técnicas o algoritmos complejos, explica tu enfoque en comentarios.
