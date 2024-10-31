@@ -56,6 +56,8 @@ Para contribuir a este repositorio, sigue los pasos a continuación para la crea
    - Escribir cambios del Pull Request.
    - Si todo está bien, enviar con el botón "Send Pull Request".
    - Esperar a que el duelo del repositorio lo revise, acepte y mezcle en la rama correspondiente.
+
+![image](https://www.ravbug.com/tutorials/github-pr/compare.png)
    
 ## Reglas y Buenas Prácticas
 
