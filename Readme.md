@@ -1,8 +1,8 @@
 
 
-# Repositorio del Grupo Estable de la Maratón de Programación
+# Repositorio del Grupo Estable de la Maratón de Programación UFPSO
 
-¡Bienvenidos al repositorio oficial del grupo estable de la maratón de programación! Aquí, los estudiantes y participantes del grupo pueden colaborar, resolver problemas, compartir estrategias y aprender unos de otros a través de la práctica y discusión de problemas de programación competitiva.
+¡Bienvenidos al repositorio oficial del grupo estable de la maratón de programación de la UFPSO! Aquí, los estudiantes y participantes del grupo pueden colaborar, resolver problemas, compartir estrategias y aprender unos de otros a través de la práctica y discusión de problemas de programación competitiva.
 
 Este repositorio está organizado en cuatro carpetas principales, cada una dedicada a distintas plataformas y temas de práctica. A continuación, encontrarás una descripción de cada carpeta y cómo usar este repositorio de manera efectiva.
 
@@ -25,7 +25,7 @@ Para contribuir a este repositorio, sigue los pasos a continuación:
    git clone https://github.com/tu-usuario/maraton-programacion.git
    ```
 
-2. **Crear una nueva rama para tu contribución o trabajar en el main**: 
+2. **Crear una nueva rama para tu contribución o trabajar directamente en el main**: 
    ```bash
    git checkout -b mi-nueva-contribucion
    ```
@@ -35,7 +35,7 @@ Para contribuir a este repositorio, sigue los pasos a continuación:
 4. **Hacer commit de tus cambios**: 
    ```bash
    git add .
-   git commit -m "Añadida solución para [nombre del problema] en [plataforma]"
+   git commit -m "feat: Añadida solución para [nombre del problema] en [plataforma]"
    ```
 
 5. **Enviar tu contribución**: 
