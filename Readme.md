@@ -1,6 +1,4 @@
-Aquí tienes un ejemplo de README para tu repositorio de GitHub que puedes personalizar según las necesidades de tu equipo:
 
----
 
 # Repositorio del Grupo Estable de la Maratón de Programación
 
@@ -27,7 +25,7 @@ Para contribuir a este repositorio, sigue los pasos a continuación:
    git clone https://github.com/tu-usuario/maraton-programacion.git
    ```
 
-2. **Crear una nueva rama para tu contribución**: 
+2. **Crear una nueva rama para tu contribución o trabajar en el main**: 
    ```bash
    git checkout -b mi-nueva-contribucion
    ```
@@ -61,12 +59,8 @@ Para contribuir a este repositorio, sigue los pasos a continuación:
 
 - [Documentación de GitHub](https://docs.github.com/)
 - [Documentación de Git](https://git-scm.com/doc)
-- [Guía de estilo de código para programación competitiva (recomendado)](https://algorithms.williamfiset.com/)
+- [Guía de estilo de código para programación competitiva (recomendado)](https:)
 
 ## Contacto
 
 Si tienes alguna pregunta o sugerencia para mejorar el repositorio, no dudes en contactar a los administradores del grupo o abrir un Issue en este repositorio.
-
----
-
-Este README ofrece una guía clara y organizada para que todos los miembros del equipo puedan contribuir y aprender juntos en este espacio de colaboración. ¡Buena suerte en la maratón de programación!
